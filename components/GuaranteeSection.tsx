@@ -16,12 +16,6 @@ const GuaranteeSection: React.FC = () => {
               We are so confident in the power of Strongman Power Syrup that we offer a 100% risk-free guarantee. If you're not completely satisfied with your results within 30 days, contact us for a full refund. No questions asked.
             </p>
           </div>
-          <div className="hidden lg:block ml-auto">
-             {/* <!-- IMAGE PLACEHOLDER: Hand holding seal or certificate (400x300) --> */}
-             <div className="w-64 h-48 bg-black/10 rounded-lg flex items-center justify-center">
-                 <p className="text-black/50">Seal of Quality</p>
-             </div>
-          </div>
         </div>
       </div>
     </section>
