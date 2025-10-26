@@ -110,7 +110,7 @@ Please confirm my order. Thank you!
           <div className="text-center">
              {/* <!-- DELIVERY BOX MOCKUP (400x250) --> */}
              <div className="w-full max-w-md mx-auto h-64 bg-gray-800 rounded-lg shadow-2xl flex items-center justify-center mb-6">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANdGcRFbbW0TOQLwtJpDptzArgnR5-JQcv_9raofA&s" alt="Discreet delivery box" className="h-48"/>
+                <img src="https://t4.ftcdn.net/jpg/04/62/39/11/360_F_462391120_7rKj3imICoAKHx1gEK6aLVu7SFCXUcQh.jpg" alt="Discreet delivery box" className="h-48"/>
              </div>
             <p className="text-xl font-bold text-yellow-400">Free Delivery Nationwide</p>
             <p className="text-gray-300">Your order will be delivered discreetly within 48 hours. Pay on delivery.</p>
