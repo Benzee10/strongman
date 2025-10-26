@@ -12,6 +12,7 @@ import ProblemSection from './components/ProblemSection';
 import SolutionSection from './components/SolutionSection';
 import TestimonialSection from './components/TestimonialSection';
 import UrgencySection from './components/UrgencySection';
+import SealOfQualitySection from './components/SealOfQualitySection';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <TestimonialSection />
         <PricingSection />
         <GuaranteeSection />
+        <SealOfQualitySection />
         <OrderSection />
         <FaqSection />
       </main>
