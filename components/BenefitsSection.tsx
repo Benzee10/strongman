@@ -49,13 +49,13 @@ const BenefitsSection: React.FC = () => {
               key={index}
               className={`grid md:grid-cols-2 gap-8 md:gap-12 items-center`}
             >
-              <div className={`relative rounded-lg overflow-hidden shadow-2xl h-80 ${index % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
+              <div className={`relative rounded-lg overflow-hidden shadow-2xl h-80 bg-gray-900/50 ${index % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
                 <img
                   src={benefit.image}
                   alt={benefit.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
-                 <div className="absolute inset-0 bg-black/30"></div>
+                 <div className="absolute inset-0 bg-black/30 pointer-events-none"></div>
               </div>
               <div className={`${index % 2 === 0 ? 'md:order-2' : 'md:order-1'}`}>
                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{benefit.title}</h3>
