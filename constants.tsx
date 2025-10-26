@@ -81,6 +81,17 @@ const BloodIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
     </svg>
 );
 
+const ShieldCheckIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" {...props}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m6-3.812A22.523 22.523 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632-2.283-1.048-4.306-2.585-5.784-4.483a11.96 11.96 0 0 1-1.632-7.5c0-3.443 1.632-6.582 4.483-8.625C8.418 1.165 11.83 1.5 15 2.518c2.46.75 4.582 2.215 6.07 4.138Z" />
+    </svg>
+);
+
+const TruckIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" {...props}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.125-.504 1.125-1.125V14.25m-17.25 4.5v-1.875a3.375 3.375 0 0 1 3.375-3.375h9.75a3.375 3.375 0 0 1 3.375 3.375v1.875M3.375 9h17.25" />
+    </svg>
+);
 
 
 export const Icons = {
@@ -96,5 +107,7 @@ export const Icons = {
   badge: BadgeIcon,
   warning: WarningIcon,
   hormone: HormoneIcon,
-  blood: BloodIcon
+  blood: BloodIcon,
+  shieldCheck: ShieldCheckIcon,
+  truck: TruckIcon
 };
